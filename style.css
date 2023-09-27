@@ -1,0 +1,190 @@
+body{
+	background-color: #000000;
+}
+
+
+.center{
+	transition: 0.5s;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 25%;
+	max-width: 50%;
+	max-height: 50%;
+	height: auto;
+	opacity: 0.3;
+}
+
+.center:hover{
+	transition: 1s;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 25%;
+	max-width: 50%;
+	max-height: 50%;
+	height: auto;
+	opacity: 1;
+}
+
+.bgimg{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-image: url('images/howIsawIt.JPEG');
+	opacity: 1;
+
+}
+
+/* ALL GOOD UP TO HERE - SOCIAL BAR WORK BELOW */
+
+
+.centersocial{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	right: 50%;
+	top: 75%;
+}
+
+.centercontact{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	right: 50%;
+	top: 35%;
+}
+
+.socialbar{
+	transition: 0.3s;
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	align-items: center;
+	height: 20px;
+	position: absolute;
+	padding: 10px 0px 10px 0px;
+	opacity: 0.5;
+}
+
+.socialbar:hover{
+	transition: 0.3s;
+	opacity: 1;
+}
+
+.socialbar img{
+	transition: 0.2s;
+	opacity: 0.5;
+}
+
+.socialbar img:hover{
+	transition: 0.2s;
+	opacity: 1;
+}
+
+
+.contact{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	background-color: #333333;
+	height: 20px;
+	position: fixed;
+	bottom: 0px;
+	opacity: 0.2;
+	right: 0;
+	left: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 10px;
+	padding: 10px 10px 10px 10px;
+	color: #ffffff;
+}
+
+.contact:hover{
+	transition: 1s;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	background-color: #333333;
+	height: 30px;
+	position: fixed;
+	bottom: 0px;
+	opacity: 0.6;
+	right: 0;
+	left: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 10px;
+	padding: 0px 10px 10px 10px;
+	color: #ffffff;
+}
+
+.font{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.font:hover{
+	transition: 0.3s;
+	text-shadow: 0px 0px 20px white;
+}
+
+.contactfont{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+	padding-bottom: 50px;
+	opacity: 0.2;
+	text-decoration: none;
+}
+
+.contactfont:hover{
+	transition: 0.5s;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+	padding-bottom: 50px;
+	opacity: 1;
+	text-shadow: 0px 0px 20px purple;
+	text-decoration: none;
+}
+
+
+.contactbar{
+	align-items: center;
+	position: relative;
+	opacity: 1;
+	left: 50%;
+}
+
+.space{
+	padding-top: 30px;
+}
+
+.pressfont{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 50px;
+	color: #ffffff;
+	padding-bottom: 0px;
+	opacity: 0.2;
+	text-decoration: none;
+}
+
+.pressfont:hover{
+	transition: 0.5s;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 50px;
+	color: #ffffff;
+	padding-bottom: 0px;
+	opacity: 1;
+	text-shadow: 0px 0px 20px purple;
+	text-decoration: none;
+}
+
