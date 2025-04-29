@@ -1,0 +1,128 @@
+[
+    {
+      "id": 1,
+      "title": "24h, Client-Side Stories",
+      "content": {
+        "projTitle": "24h: Client-Side Stories",
+        "description": "A client side story clone that allows users to upload an image as a 'story' which will vanish after 24 hours",
+        "intro": "This is my take on the popular 'stories' format you see everywhere these days, made in React and fully local!",
+        "body": "Upload your own images and view them for up to 24 hours",
+        "conclusion": "Give it a spin below! The whole project with tech stack and expanded information can be found on my GitHub",
+        "link": "https://24h-story-clone.pages.dev/",
+        "githubLink": "https://github.com/cescosgames/story-clone",
+        "tags": ["React", "Tailwind", "Frontend"],
+        "imagePath": "/images/webdev/24h.webp",
+        "imageAltText": "example alt text",
+        "gifPath": "",
+        "gifAltText": "example gif alt text"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Newitt Reddit Client",
+      "content": {
+        "projTitle": "Newitt",
+        "description": "A minimalist reddit client that loads the newest content from user selected subreddits",
+        "intro": "Everyone should have their own Reddit client, and mine is for the newest information available!",
+        "body": "Select your own, or pick a starter pack of subreddits to get the newest information from in a minimal format",
+        "conclusion": "Note: currently using a simple API call that is highly limited",
+        "link": "https://newitt-project.pages.dev/",
+        "githubLink": "https://github.com/cescosgames/newitt_project",
+        "tags": ["React", "API", "Frontend"],
+        "imagePath": "/images/webdev/newitt.webp",
+        "imageAltText": "example alt text",
+        "gifPath": "",
+        "gifAltText": "example gif alt text"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Professional Artist Landing Page",
+      "content": {
+        "projTitle": "Professional Artist Landing Page",
+        "description": "Landing page for music producer and artist pronouncedyea",
+        "intro": "One of my first projects was making a landing page for my professional artist project.",
+        "body": "Over the years it went through many changes until this most recent 2025 update",
+        "conclusion": "This page was inspired by modern trends while remaining thematically consistent with the music",
+        "link": "https://pronouncedyea.com/",
+        "githubLink": "",
+        "tags": ["Astro", "Frontend", "Tailwind"],
+        "imagePath": "/images/webdev/artist.webp",
+        "imageAltText": "example alt text",
+        "gifPath": "",
+        "gifAltText": "example gif alt text"
+      }
+    },
+    {
+      "id": 4,
+      "title": "JSON Quiz",
+      "content": {
+        "projTitle": "JSON Quiz",
+        "description": "A browser based quiz-app & template that features time and score based multiple choice based questions",
+        "intro": "Combining games with webdev led to this browser based quiz",
+        "body": "While the aesthetic is static, the quiz content can be easily modified by uploading your own JSON file in the correct quiz format",
+        "conclusion": "Try it out yourself! Replace the current JSON and try out your own quiz!",
+        "link": "https://jsonquiz.pages.dev/",
+        "githubLink": "https://github.com/cescosgames/jsonquiz",
+        "tags": ["React", "Tailwind", "Frontend"],
+        "imagePath": "/images/webdev/jsonQuiz.webp",
+        "imageAltText": "example alt text",
+        "gifPath": "",
+        "gifAltText": "example gif alt text"
+      }
+    },
+    {
+      "id": 5,
+      "title": "BubWeather: Simple Weather",
+      "content": {
+        "projTitle": "BubWeather",
+        "description": "Mobile-first straightforward weather app that returns standard weather information using the Visual Crossing API",
+        "intro": "This project was built to practice API calls in a realistic and practical way",
+        "body": "",
+        "conclusion": "Try it out now!",
+        "link": "https://bubweather.pages.dev/",
+        "githubLink": "https://github.com/cescosgames/bubweather",
+        "tags": ["React", "API", "Frontend"],
+        "imagePath": "/images/webdev/bubweather.webp",
+        "imageAltText": "example alt text",
+        "gifPath": "",
+        "gifAltText": "example gif alt text"
+      }
+    },
+    {
+      "id": 6,
+      "title": "QuickRepPA",
+      "content": {
+        "projTitle": "QuickRepPA",
+        "description": "Rapid PA representative mailing address lookup designed for mobile.",
+        "intro": "Inspired by a real life event where I needed to quickly find my representatives address",
+        "body": "Using the existing government lookup on my phone made me realize how much friction there was in the process",
+        "conclusion": "Unfortunately, unable to find an alternative to Google Civic Info, this project is currently non-functioning although the framework is all set up for when an alternative is found.",
+        "link": "",
+        "githubLink": "https://github.com/cescosgames/quickrepPA",
+        "tags": ["API", "React"],
+        "imagePath": "/images/webdev/quickrep.webp",
+        "imageAltText": "example alt text",
+        "gifPath": "",
+        "gifAltText": "example gif alt text"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Other Projects",
+      "content": {
+        "projTitle": "Other Projects",
+        "description": "Other small projects/backend projects can be found on my github",
+        "intro": "Here you can find a variety of projects I've worked on since the very beginning",
+        "body": "If you have any questions please contact me!",
+        "conclusion": "Always looking forward to discussing projects together!",
+        "link": "",
+        "githubLink": "https://github.com/cescosgames",
+        "tags": ["WebDev"],
+        "imagePath": "/images/webdev/mygh.webp",
+        "imageAltText": "example alt text",
+        "gifPath": "",
+        "gifAltText": "example gif alt text"
+      }
+    }
+  ]

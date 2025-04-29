@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "FARO: 198X (WIP)",
+        "content": {
+          "projTitle": "FARO: 198X (WIP)",
+          "description": "A modern take on the classic card game, FARO",
+          "intro": "FARO is an interesting game because there isn't much to it, so how do you spice it up?",
+          "body": "An adventure into 'Juice' and creativity this project has been a wonderful challenge into adding excitement where there might not have been before",
+          "conclusion": "This project has been on pause since January 2025, but I aim to release a single level demo by Fall 2025. Email me if you'd like to test it early!",
+          "link": "",
+          "githubLink": "",
+          "tags": ["Godot", "GDScript", "In-Development"],
+          "imagePath": "/images/gamedev/faro.webp",
+          "imageAltText": "example alt text",
+          "gifPath": "",
+          "gifAltText": "example gif alt text"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Mini Lax Sim 24",
+        "content": {
+          "projTitle": "Mini Lax Sim 24",
+          "description": "Bite-Sized yet in-depth Lacrosse simulation/auto-battler and management game",
+          "intro": "My biggest game dev project to date featuring a full release on Steam",
+          "body": "Inspired by popular auto battlers and sports sims (like OOTP), I decided to try my hand at a realistic stats-based lacrosse simulator",
+          "conclusion": "A ton of tests, spreadsheets, and hours led to the most recent version which I believe accurately reflects modern field lacrosse. If you'd like more behind-the-scenes into this project, I'd be happy to talk!",
+          "link": "https://store.steampowered.com/app/3131400/Mini_Lax_Sim_24/",
+          "githubLink": "",
+          "tags": ["Unity", "C#", "Aseprite"],
+          "imagePath": "/images/gamedev/minilax.webp",
+          "imageAltText": "example alt text",
+          "gifPath": "",
+          "gifAltText": "example gif alt text"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Contesa: Fight For Foresta",
+        "content": {
+          "projTitle": "Contesa: Fight For Foresta",
+          "description": "Fast paced trick taking card game featuring AI (decision tree) opponents",
+          "intro": "Everyone should make a card game as the lessons learned in logic are priceless",
+          "body": "Although I had experimented with simple 'AI' before, this was my most elaborated on AI opponent, and it puts up quite a fight!",
+          "conclusion": "For a more behind-the-scenes look contact me and I'd be happy to share everything!",
+          "link": "https://cesco-ideas.itch.io/contesa-fight-for-foresta",
+          "githubLink": "",
+          "tags": ["Unity", "AI", "C#"],
+          "imagePath": "/images/gamedev/contesa.webp",
+          "imageAltText": "example alt text",
+          "gifPath": "",
+          "gifAltText": "example gif alt text"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Other Projects",
+        "content": {
+          "projTitle": "Other Projects",
+          "description": "A selection of my other projects can be found in the link here",
+          "intro": "I've made a good amount of 'game-jam' style games, some released a lot unreleased",
+          "body": "You can find ones I've released on my itch, but if you'd like to see more (like my baseball simulator, slot samurai, etc.) contact me and I'll send you a link!",
+          "conclusion": "(the baseball one is mighty neat)",
+          "link": "https://cesco-ideas.itch.io/",
+          "githubLink": "",
+          "tags": ["GameDev"],
+          "imagePath": "/images/gamedev/other.webp",
+          "imageAltText": "example alt text",
+          "gifPath": "",
+          "gifAltText": "example gif alt text"
+        }
+    }
+  ]

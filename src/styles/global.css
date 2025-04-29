@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-almost-black: #111111;
+    --color-almost-white: #dddddd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+
+/* default light mode */
+html {
+    background-color: #dddddd;
+    color: #111111;
+}
+/* default dark mode */
+html.dark {
+    background-color: #111111;
+    color: #eeeeee;
+}
+
+/* this is necessary for tailwind darkmode class activation  */
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+/* utility classes */
+.no-scrollbar {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+}
+
+
+
+/* the tag gradients */
+.react-gradient {
+    background: linear-gradient(135deg, #58c4dc, #23272f);
+}
+.tailwind-gradient {
+    background: linear-gradient(135deg, #00bcff, #030712);
+}
+.frontend-gradient {
+    background: linear-gradient(135deg, #e44d26, #f08c62);
+}
+.backend-gradient {
+    background: linear-gradient(135deg, #80bd00, #333333);
+}
+.astro-gradient {
+    background: linear-gradient(135deg, #2420ae, #791bbb);
+}
+.css-gradient {
+    background: linear-gradient(135deg, #1572b6, #3babdc);
+}
+.unity-gradient {
+    background: linear-gradient(135deg, #808080, #000000);
+}
+.api-gradient {
+    background: linear-gradient(135deg, #69e3ff, #4576a3);
+}
+.godot-gradient {
+    background: linear-gradient(135deg, #478cbf, #cbd6ea);
+}
+.aseprite-gradient {
+    background: linear-gradient(135deg, #d67ab9, #f9ef33);
+}
+.ai-gradient {
+    background: linear-gradient(135deg, #db387e, #77d0b2);
+}
+.git-gradient {
+    background: linear-gradient(135deg, #f05033, #3d2d00);
+}
+.vite-gradient {
+    background: linear-gradient(135deg, #ffc31b, #b149fe);
+}
+.js-gradient {
+    background: linear-gradient(135deg, #f7df1e, #4f490a);
+}
+.cf-gradient {
+    background: linear-gradient(135deg, #ff6633, #fa9426);
+}
+
+
+
+/* some animations */
+/* animation for fading in the pop up for copying email address */
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+  
+@keyframes fadeOutLeft {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+}
+.popup {
+    position: absolute;
+    top: -90%;
+    right: -150%;
+    opacity: 0;
+    pointer-events: none; /* stop interaction when hidden */
+    font-size: x-small;
+    width: 100px;
+    text-align: center;
+    font-style: italic;
+  }
+
+.popup.visible {
+    animation: fadeInRight 0.5s ease forwards; /* Trigger fade-in */
+}
+
+.popup.hidden {
+    animation: fadeOutLeft 0.5s ease forwards; /* Trigger fade-out */
+}

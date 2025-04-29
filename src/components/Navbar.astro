@@ -1,0 +1,61 @@
+---
+import ThemeIcon from "./ThemeIcon.astro"
+---
+
+<div class="m-auto md:w-lg w-xs flex justify-between py-6 items-center h-10 sticky dark:border-purple-100/20 border-black/20">
+    <!-- left side, name / logo / imagery -->
+    <div class="w-full h-full flex items-center justify-start">
+        <p class="text-sm cursor-default">francescogiannini.com</p>
+    </div>
+    <!-- center, information links -->
+    <!-- <div class="w-full h-full flex items-center text-xs">
+        <ul class="flex gap-3">
+            <a href="#" class="transition relative group">About</a>
+            <a href="#" class="transition relative group">Projects</a>
+            <a href="#" class="transition relative group">Contact</a>
+        </ul>
+    </div> -->
+    <!-- right side, utility / burger menu? -->
+    <div class="w-full h-full flex items-center justify-end">
+        <ThemeIcon />
+    </div>
+</div>
+
+
+
+<style>
+    .group::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -5px; /* Adjust for spacing */
+      width: 0%;
+      height: 2px;
+      background: rgba(96, 165, 250, 0.5);
+      transition: width 0.3s ease, left 0.3s ease;
+    }
+  
+    .group:hover::after {
+      width: 120%;
+      left: -10%;
+    }
+
+    /* this was a sort of 'underlight' effect, looked cooler in theory */
+    /* .group::before {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: -10%;
+        width: 120%;
+        height: 30px; 
+        background: linear-gradient(to top, rgba(96, 165, 250, 0.5) 5%, rgba(255, 255, 255, 0));
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.6s ease;
+        z-index: -1;
+    }
+
+    .group:hover::before {
+        opacity: 1;
+    } */
+  </style>

@@ -1,0 +1,69 @@
+---
+import About from "./About.astro"
+import WebDevTab from "./WebDevTab.astro"
+import GameDevTab from "./GameDevTab.astro"
+---
+<div class="mt-5 pb-10 mx-auto">
+    <!-- this is the outline, where we will have tabs to switch information -->
+    <div class="md:w-lg w-xs m-auto border-1 border-black/20 dark:border-white/50 rounded-md">
+        <!-- tabs will go here, conditionally rendered -->
+        <nav class="relative border-b-1 border-black/20 dark:border-white/50 flex justify-start">
+            <button class="active cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black rounded-tl-md border-r-1 border-black/20 dark:border-white/50 text-sm">About</button>
+            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black/20 dark:border-white/50 text-sm">WebDev</button>
+            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black/20 dark:border-white/50 text-sm">GameDev</button>
+            <!-- <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black/20 dark:border-white/50 text-sm">Other</button> -->
+        </nav>
+
+        <!-- this is the content -->
+        <section class="p-5 text-sm">
+            <div class="tab-content active"><About /></div>
+            <div class="tab-content hidden"><WebDevTab /></div>
+            <div class="tab-content hidden"><GameDevTab /></div>
+            <!-- <div class="tab-content hidden">Another Tab</div> -->
+        </section>
+    </div>
+</div>
+
+
+<style>
+    .tab-button {
+        position: relative;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .tab-button::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0%;
+        width: 100%;
+        height: 2px;
+        background-color: rgba(96, 165, 250, 1);
+        transform: scaleX(0); /* Start with no width */
+        transform-origin: center; /* Scale from the center */
+        transition: transform 0.3s ease-in-out;
+        pointer-events: none; /* Prevent interfering with clicks */
+    }
+
+    .tab-button.active::after {
+        transform: scaleX(1); /* Expand to full width */
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const tabs = document.querySelectorAll('.tab-button'); // get the tabs
+        const contents = document.querySelectorAll('.tab-content'); // get the content
+
+        tabs.forEach((tab, index) => { 
+        tab.addEventListener('click', () => { // add this function on click to each tab
+            tabs.forEach(t => t.classList.remove('active')); // remove all ative tags
+            contents.forEach(c => c.classList.add('hidden')); // add all hidden tags
+
+            tab.classList.add('active'); // add active to this tab
+            contents[index].classList.remove('hidden'); // remove hidden from the content at index of content
+        });
+        });
+    });
+</script>
