@@ -34,7 +34,7 @@
             <!-- social links -->
             <div class="flex items-center gap-2">
                 <!-- mail, make this a click to copy email button -->
-                <div class="relative" id="clickable">
+                <div class="relative" id="clickable" role="button" tabindex="0">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 cursor-pointer opacity-100 hover:opacity-50 transition">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                     </svg>
@@ -46,10 +46,10 @@
 
                 <!-- github -->
                 <div>
-                    <a href="https://github.com/cescosgames" target="_blank" >
+                    <a href="https://github.com/cescosgames" target="_blank" aria-label="link to my github profile, dark mode">
                         <img src="/images/gh-white.png" alt="Github Logo" class="hidden dark:block w-6 aspect-square hover:cursor-pointer hover:opacity-50 transition-all">
                     </a>
-                    <a href="https://github.com/cescosgames" target="_blank" >
+                    <a href="https://github.com/cescosgames" target="_blank" aria-label="link to my github profile, light mode">
                         <img src="/images/gh-black.png" alt="Github Logo" class="block dark:hidden w-6 aspect-square hover:cursor-pointer hover:opacity-50 transition">
                     </a>
                 </div>
@@ -67,8 +67,6 @@
 </div>
 
 
-
-
 <!-- script for copying email address -->
 <script>
     const popup = document.getElementById('popup');
@@ -83,6 +81,7 @@
         }, 1000); // Adjust duration as needed
     }
   
+    // function to copy email to clipboard, then display feedback
     function copyToClipboard() {
       navigator.clipboard.writeText('cescosgames@gmail.com').then(() => {
         showPopup();
@@ -92,4 +91,12 @@
     click?.addEventListener('click', () => {
         copyToClipboard();
     })
+
+    // adding keyboard access to our clickable mail copy button
+    click?.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+            copyToClipboard();
+        }
+    })
+
 </script>
