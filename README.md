@@ -5,17 +5,13 @@ Initial Deployment 4/29/25
 Features:
 - Astro project with React islands
 - About, WebDev, and GameDev Sections featuring various projects
-- Good desktop performance
+- Solid desktop performance
+- Custom domain
 
 ToDo:
-- Add biography section
-- Add increased accessiblity features (keyboard navigateion, proper button naming, proper link naming)
+- Add about section
+- Research and improve accessiblity features (keyboard navigation, proper button naming, proper link naming)
 - Improve mobile performance
 
 Feedback:
-- change learning sentence in intro
-- chance intro to home and add about/bio section (resume lite)
-- remove scroll from thumbnails by removing description sentence, imply button
-- consider adding 'email' to 'address copied' popup
 - new profile picture
-- change domain header to real domain
