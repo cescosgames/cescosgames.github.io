@@ -117,11 +117,11 @@ html.dark {
 .popup {
     position: absolute;
     top: -90%;
-    right: -150%;
+    right: -250%;
     opacity: 0;
     pointer-events: none; /* stop interaction when hidden */
     font-size: x-small;
-    width: 100px;
+    width: 150px;
     text-align: center;
     font-style: italic;
   }
