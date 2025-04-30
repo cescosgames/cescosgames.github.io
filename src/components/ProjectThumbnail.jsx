@@ -28,7 +28,7 @@ const ProjectThumbnail = ({ imageSrc, altText, projectTitle, projectDescrip, tag
   return (
     <>
     <div 
-      className='relative border-1 bg-almost-white dark:bg-none cursor-pointer dark:bg-almost-black border-black/20 dark:border-white/50 rounded-xl w-full max-h-50 flex flex-col overflow-scroll no-scrollbar sm:opacity-75 hover:opacity-100 transition-all'
+      className='relative border-1 bg-almost-white dark:bg-none cursor-pointer dark:bg-almost-black border-black/20 dark:border-white/50 rounded-xl w-full md:max-h-60 md:h-60 flex flex-col overflow-scroll no-scrollbar md:opacity-75 hover:opacity-100 transition-all'
       onClick={ () => toggleModal()}
       >
 
@@ -38,9 +38,9 @@ const ProjectThumbnail = ({ imageSrc, altText, projectTitle, projectDescrip, tag
       </div>
 
       {/* the header */}
-      <div className="px-6 py-4">
+      <div className="px-6">
         <div className="font-bold text-lg mb-2">{projectTitle}</div>
-        <p className="text-almost-black/50 dark:text-almost-white/50 text-xs">{projectDescrip}</p>
+        {/* <p className="text-almost-black/50 dark:text-almost-white/50 text-xs">{projectDescrip}</p> */}
       </div>
 
       {/* the tools used/tags */}
