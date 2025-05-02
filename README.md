@@ -1,6 +1,7 @@
 # FG Portfolio site test v1
 
-Initial Deployment 4/29/25
+Initial Deployment: 4/29/25
+Last Update: 5/2/25
 
 Features:
 - Astro project with React islands
@@ -9,7 +10,7 @@ Features:
 - Custom domain
 
 ToDo:
-- Add about section
+- Refine about and home section
 - Research and improve accessiblity features (keyboard navigation, proper button naming, proper link naming)
 - Improve mobile performance
 

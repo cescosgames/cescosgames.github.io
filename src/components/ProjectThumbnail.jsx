@@ -25,11 +25,22 @@ const ProjectThumbnail = ({ imageSrc, altText, projectTitle, projectDescrip, tag
     AI: 'ai-gradient',
   }; // see our css for the gradients and see our map func to see they keys being used
 
+  // keydown function for keyboard accessibility on tabs
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault(); // Prevent default scrolling behavior for Space.
+      toggleModal();
+    }
+  };
+
   return (
     <>
     <div 
       className='relative justify-between border-1 bg-almost-white dark:bg-none cursor-pointer dark:bg-almost-black border-black/20 dark:border-white/50 rounded-xl w-full md:max-h-60 md:h-60 flex flex-col overflow-scroll no-scrollbar md:opacity-75 hover:opacity-100 transition-all'
       onClick={ () => toggleModal()}
+      onKeyDown={ (event) => handleKeyDown(event)}
+      role='button'
+      tabIndex='0'
       >
 
       <div className="relative w-full h-20">
