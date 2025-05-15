@@ -109,6 +109,24 @@
     },
     {
       "id": 7,
+      "title": "Express Personal Blog",
+      "content": {
+        "projTitle": "Express Personal Blog",
+        "description": "Example project setting up a simple backend + simple frontend for a basic CRUD blog ",
+        "intro": "This project demonstrates a basic CRUD blog using only Express on the backend and vanilla HTML,CSS,JS on the frontend",
+        "body": "This project uses local file system to store blog posts, but could be swapped to a database in the future",
+        "conclusion": "Currently not hosted online",
+        "link": "",
+        "githubLink": "https://github.com/cescosgames/express-personal-blog",
+        "tags": ["Backend", "ExpressJS"],
+        "imagePath": "/images/webdev/express-blog.webp",
+        "imageAltText": "example alt text",
+        "gifPath": "",
+        "gifAltText": "example gif alt text"
+      }
+    },
+    {
+      "id": 8,
       "title": "Other Projects",
       "content": {
         "projTitle": "Other Projects",
