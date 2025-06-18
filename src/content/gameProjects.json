@@ -1,20 +1,20 @@
 [
     {
         "id": 1,
-        "title": "FARO: 198X (WIP)",
+        "title": "FARO: 198X",
         "content": {
-          "projTitle": "FARO: 198X (WIP)",
+          "projTitle": "FARO: 198X",
           "description": "A modern take on the classic card game, FARO",
-          "intro": "FARO is an interesting game because there isn't much to it, so how do you spice it up?",
+          "intro": "FARO is an interesting game because there isn't much to it, so how do you spice it up? Also my first Godot release",
           "body": "An adventure into 'Juice' and creativity this project has been a wonderful challenge into adding excitement where there might not have been before",
-          "conclusion": "This project has been on pause since January 2025, but I aim to release a single level demo by Fall 2025. Email me if you'd like to test it early!",
-          "link": "",
+          "conclusion": "My current highscore is 7496, lemme know if you beat it!",
+          "link": "https://cesco-ideas.itch.io/faro198x",
           "githubLink": "",
-          "tags": ["Godot", "GDScript", "In-Development"],
+          "tags": ["Godot", "GDScript", "Aseprite"],
           "imagePath": "/images/gamedev/faro.webp",
-          "imageAltText": "example alt text",
+          "imageAltText": "Gameplay screenshot of FARO:198X",
           "gifPath": "",
-          "gifAltText": "example gif alt text"
+          "gifAltText": ""
         }
     },
     {
@@ -30,9 +30,9 @@
           "githubLink": "",
           "tags": ["Unity", "C#", "Aseprite"],
           "imagePath": "/images/gamedev/minilax.webp",
-          "imageAltText": "example alt text",
+          "imageAltText": "Gameplay screenshot of Mini Lax Sim 24",
           "gifPath": "",
-          "gifAltText": "example gif alt text"
+          "gifAltText": ""
         }
     },
     {
@@ -48,9 +48,9 @@
           "githubLink": "",
           "tags": ["Unity", "AI", "C#"],
           "imagePath": "/images/gamedev/contesa.webp",
-          "imageAltText": "example alt text",
+          "imageAltText": "Gameplay screen shot of Contesa: FtF",
           "gifPath": "",
-          "gifAltText": "example gif alt text"
+          "gifAltText": ""
         }
     },
     {
@@ -66,9 +66,9 @@
           "githubLink": "",
           "tags": ["GameDev"],
           "imagePath": "/images/gamedev/other.webp",
-          "imageAltText": "example alt text",
+          "imageAltText": "Image of CescosGames itch.io page",
           "gifPath": "",
-          "gifAltText": "example gif alt text"
+          "gifAltText": ""
         }
     }
   ]
