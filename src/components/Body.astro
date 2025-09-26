@@ -6,13 +6,13 @@ import Bio from "./Bio.astro"
 ---
 <div class="mt-5 pb-10 mx-auto">
     <!-- this is the outline, where we will have tabs to switch information -->
-    <div class="md:w-lg w-xs m-auto border-1 border-black/20 dark:border-white/50 rounded-md">
+    <div class="md:w-lg w-xs m-auto border-1 border-black dark:border-white rounded-md">
         <!-- tabs will go here, conditionally rendered -->
-        <nav class="relative border-b-1 border-black/20 dark:border-white/50 flex justify-start">
-            <button class="active cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black rounded-tl-md border-r-1 border-black/20 dark:border-white/50 text-sm">Home</button>
-            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black/20 dark:border-white/50 text-sm">WebDev</button>
-            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black/20 dark:border-white/50 text-sm">GameDev</button>
-            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black/20 dark:border-white/50 text-sm">About</button>
+        <nav class="relative border-b-1 border-black dark:border-white flex justify-start">
+            <button class="active cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black rounded-tl-md border-r-1 border-black dark:border-white/50 text-sm">Home</button>
+            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black dark:border-white/50 text-sm">WebDev</button>
+            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black dark:border-white/50 text-sm">GameDev</button>
+            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black dark:border-white/50 text-sm">About</button>
         </nav>
 
         <!-- this is the content -->
@@ -39,7 +39,7 @@ import Bio from "./Bio.astro"
         bottom: 0;
         left: 0%;
         width: 100%;
-        height: 2px;
+        height: 3px;
         background-color: rgba(96, 165, 250, 1);
         transform: scaleX(0); /* Start with no width */
         transform-origin: center; /* Scale from the center */
