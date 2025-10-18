@@ -55,6 +55,24 @@
     },
     {
         "id": 4,
+        "title": "Trick'r'Click",
+        "content": {
+          "projTitle": "Trick'r'Click",
+          "description": "A simple incremental game made for a Halloween Jam 2025",
+          "intro": "A fun challenge for a personal Halloween game jam",
+          "body": "For Halloween 2025 I decided to challenge myself and make a full game in a 24 hour period. Even though it ended up taking place over a 48 hour period, a lot was learned.",
+          "conclusion": "I wrote a reflection on this process on my blog and on itch.io if you want to see behind the scenes of this sprint",
+          "link": "https://cesco-ideas.itch.io/trickrclick",
+          "githubLink": "",
+          "tags": ["Godot", "GDScript"],
+          "imagePath": "/images/gamedev/trickrclick.webp",
+          "imageAltText": "Gameplay screen shot of trick or click",
+          "gifPath": "",
+          "gifAltText": ""
+        }
+    },
+    {
+        "id": 5,
         "title": "Other Projects",
         "content": {
           "projTitle": "Other Projects",

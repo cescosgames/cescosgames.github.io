@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "title": "Simple AI Translator",
+      "content": {
+        "projTitle": "Simple AI Translator",
+        "description": "A practice project to practice integrating AI into a web app to create an AI powered web application",
+        "intro": "A small practice project to practice building and deploying a web app integrated with AI. Guideline and visual assets provided by Scrimba",
+        "body": "This project was created using vanilla HTML/CSS+JS and the OpenAI API.",
+        "conclusion": "The project will be live soon, stay tuned!",
+        "link": "",
+        "githubLink": "https://github.com/cescosgames/scrimba-ai-translator-solo-project",
+        "tags": ["LLM", "OpenAI", "API"],
+        "imagePath": "/images/AI/pollyglot.webp",
+        "imageAltText": "Screenshot of ai powered translator app",
+        "gifPath": "",
+        "gifAltText": ""
+      }
+    }
+  ]

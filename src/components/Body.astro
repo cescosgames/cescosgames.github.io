@@ -2,6 +2,7 @@
 import About from "./About.astro"
 import WebDevTab from "./WebDevTab.astro"
 import GameDevTab from "./GameDevTab.astro"
+import AITab from "./AITab.astro"
 import Bio from "./Bio.astro"
 ---
 <div class="mt-5 pb-10 mx-auto">
@@ -9,10 +10,11 @@ import Bio from "./Bio.astro"
     <div class="md:w-lg w-xs m-auto border-1 border-black dark:border-white rounded-md">
         <!-- tabs will go here, conditionally rendered -->
         <nav class="relative border-b-1 border-black dark:border-white flex justify-start">
-            <button class="active cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black rounded-tl-md border-r-1 border-black dark:border-white/50 text-sm">Home</button>
-            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black dark:border-white/50 text-sm">WebDev</button>
-            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black dark:border-white/50 text-sm">GameDev</button>
-            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black dark:border-white/50 text-sm">About</button>
+            <button class="active cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black rounded-tl-md border-r-1 border-black dark:border-white/50 text-sm w-20">Home</button>
+            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black dark:border-white/50 text-sm w-20">WebDev</button>
+            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black dark:border-white/50 text-sm w-20">GameDev</button>
+            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black border-r-1 border-black dark:border-white/50 text-sm w-20">AI</button>
+            <button class="cursor-pointer tab-button relative p-2 bg-almost-white dark:bg-almost-black sm:border-r-1 rounded-tr-md sm:rounded-tr-none border-black dark:border-white/50 text-sm w-20">About</button>
         </nav>
 
         <!-- this is the content -->
@@ -20,6 +22,7 @@ import Bio from "./Bio.astro"
             <div class="tab-content active"><About /></div>
             <div class="tab-content hidden"><WebDevTab /></div>
             <div class="tab-content hidden"><GameDevTab /></div>
+            <div class="tab-content hidden"><AITab /></div>
             <div class="tab-content hidden"><Bio /></div>
         </section>
     </div>
