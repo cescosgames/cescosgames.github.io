@@ -8,7 +8,7 @@
         "intro": "A small practice project to practice building and deploying a web app integrated with AI. Guideline and visual assets provided by Scrimba",
         "body": "This project was created using vanilla HTML/CSS+JS and the OpenAI API.",
         "conclusion": "The project will be live soon, stay tuned!",
-        "link": "",
+        "link": "https://translator-deployable.pages.dev/",
         "githubLink": "https://github.com/cescosgames/scrimba-ai-translator-solo-project",
         "tags": ["LLM", "OpenAI", "API"],
         "imagePath": "/images/AI/pollyglot.webp",
