@@ -1,7 +1,7 @@
 # FG Portfolio site test v1
 
 Initial Deployment: 4/29/25
-Last Update: 10/20/25
+Last Update: 10/24/25
 
 Features:
 - Astro project with React islands
@@ -13,4 +13,4 @@ ToDo:
 - Improve mobile performance
 
 Last Update:
-- Added link to live AI project
+- Added blogger link to portfolio
