@@ -3,29 +3,29 @@
 // import profileImage from '../../public/images/placeholder.webp'
 ---
 
-<div class="flex flex-col md:max-h-100 md:h-100 h-110 md:gap-5 gap-3">
+<div class="flex flex-col md:max-h-100 md:h-100 h-110 md:gap-5 gap-3 overflow-y-auto no-scrollbar">
     <!-- profile image and introduction -->
-     <div class="w-full flex justify-between">
-        <!-- <Image src={profileImage} alt="headshot" width="64" height="64" class="rounded-lg"/> -->
-
+     <div class="w-full flex justify-between gap-3">
         <!-- the image holder -->
         <div class="aspect-square w-[20%] overflow-hidden rounded-md border-1 hidden md:block">
             <img src="/images/newHeadshotCrop.webp" alt="headshot" class="h-full object-cover">
         </div>
 
         <!-- the intro paragraph -->
-        <div class="md:w-[70%] border-1 rounded-md md:max-h-25 w-full text-xs p-2 overflow-scroll no-scrollbar">
-            <p>My professional background as a music producer and full-stack creative, paired with my love of games, led me to discovering my love for creating things with code.</p>
+        <div class="md:w-[70%] border-1 rounded-md w-full text-xs p-3 flex flex-col gap-2">
+            <p class="font-semibold">About Me</p>
+            <p>I went from producing music to producing web applications. My professional background as a music producer taught me how to ship creative projects on deadline—now I apply that same discipline to building software.</p>
         </div>
     </div>
 
-    <div class="w-full flex flex-col text-xs border-1 rounded-md p-2 gap-1 md:max-h-25 overflow-scroll no-scrollbar">
-        <p>From working in music to self-teaching programming, I've learned the most valuable skill to have is adaptability.</p>
-        <p>Our fields are always changing rapidly, so being able to learn fast and pivot faster is essential</p>
+    <div class="w-full flex flex-col text-xs border-1 rounded-md p-3 gap-2">
+        <!-- <p class="font-semibold">Why I Code</p> -->
+        <p>Transitioning from music to programming taught me the most valuable skill: rapid learning and adaptation. Whether I'm implementing Firebase authentication for the first time or integrating unfamiliar APIs, I thrive on figuring things out.</p>
+        <p>I've built 8+ live web applications, each one teaching me something new about React, TypeScript, backend architecture, and user experience.</p>
     </div>
 
 
-    <p class="text-xs w-full text-center">Tech Stack</p>
+    <p class="text-xs w-full text-center font-semibold">Tech Stack</p>
     <hr class="opacity-50">
 
     <!-- the tech scroll -->
@@ -56,6 +56,9 @@
             <div class="px-4 py-2 text-center js-gradient rounded-lg shadow-sm transition-all cursor-default">
                 JavaScript
             </div>
+            <div class="px-4 py-2 text-center js-gradient rounded-lg shadow-sm transition-all cursor-default">
+                TypeScript
+            </div>
             <div class="px-4 py-2 text-center css-gradient rounded-lg shadow-sm transition-all cursor-default">
                 CSS
             </div>
@@ -69,9 +72,10 @@
     </div>
 
 
-    <div class="w-full flex flex-col text-xs rounded-md p-2 gap-1 max-h-25 overflow-scroll no-scrollbar border-1">
-        <p>- Currently looking for the next project to be a part of!</p>
-        <p>- Reach out anytime! Looking forward to hearing from you!</p>
+    <div class="w-full flex flex-col text-xs rounded-md p-3 gap-2 border-1">
+        <p class="font-semibold">Let's Connect</p>
+        <p>Actively seeking junior developer or entry-level programming roles where I can contribute to real-world projects and continue growing as a developer.</p>
+        <p>Reach out anytime! Looking forward to hearing from you!</p>
     </div>
 
 </div>

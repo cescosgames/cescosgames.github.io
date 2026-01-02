@@ -22,11 +22,11 @@
 </style>
 
 <script is:inline>
-    // Function to get the saved theme or detect system preference
+    // Function to get the saved theme or default to dark mode
     const getTheme = () => {
       const savedTheme = localStorage.getItem("theme");
       if (savedTheme) return savedTheme; // Use saved theme if available
-      return window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light"; // Otherwise, use system preference
+      return "dark"; // Default to dark mode
     };
   
     // Apply the theme

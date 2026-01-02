@@ -10,7 +10,10 @@ Features:
 - Custom domain
 
 ToDo:
-- Improve mobile performance
+- Add LinkedIn
+- Add Resume DL
+- Improve Project Paragraphs
 
 Last Update:
-- Added blogger link to portfolio
+- Updated layouts
+- Rewrote content

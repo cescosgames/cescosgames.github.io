@@ -71,7 +71,7 @@
     <!-- little about section -->
     <div class="mt-2 w-xs md:w-md">
         <p class="text-sm">
-            Hi, my name is Francesco, but my friends call me Cesco, and I like to create things with code.
+            Hi, my name is Francesco, but my friends call me Cesco, and I like to create <span id="rotatingText" class="text-blue-400 font-semibold">web apps</span> with code.
         </p>
     </div>
 </div>
@@ -108,5 +108,34 @@
             copyToClipboard();
         }
     })
+
+    // script for rotating text animation
+    const words = ['web apps', 'games', 'art', 'tools'];
+    let currentIndex = 0;
+    const rotatingTextElement = document.getElementById('rotatingText');
+
+    function rotateText() {
+        if (!rotatingTextElement) return; // if we can't find it
+
+        // fade out
+        rotatingTextElement.style.opacity = '0';
+
+        setTimeout(() => {
+            // change text
+            currentIndex = (currentIndex + 1) % words.length;
+            rotatingTextElement.textContent = words[currentIndex];
+
+            // Fade in
+            rotatingTextElement.style.opacity = '1';
+        }, 300); // Half of transition time
+    }
+
+    // Set transition style
+    if (rotatingTextElement) {
+        rotatingTextElement.style.transition = 'opacity 0.6s ease-in-out';
+    }
+
+    // Rotate every 3 seconds
+    setInterval(rotateText, 3000);
 
 </script>

@@ -1,4 +1,22 @@
 [
+  {
+      "id": 9,
+      "title": "SocialStreak Web App",
+      "content": {
+        "projTitle": "SocialStreak: Minimalist Social Media Planner",
+        "description": "A gamified, streak based, minimalist social media content planner",
+        "intro": "The first full stack project I embarked on, originally made for my wife who struggled to stay on consistent posting schedules",
+        "body": "Users can schedule posts, mark them as completed, and see their progress as they post consistently!",
+        "conclusion": "Email me for the test account login! Public signups will be available in the future",
+        "link": "https://social-streak-beta.pages.dev/",
+        "githubLink": "https://github.com/cescosgames/social-streak-beta",
+        "tags": ["React", "Firebase", "TypeScript"],
+        "imagePath": "/images/webdev/socialstreak.webp",
+        "imageAltText": "Screenshot of social streak web app",
+        "gifPath": "",
+        "gifAltText": ""
+      }
+    },
     {
       "id": 1,
       "title": "24h, Client-Side Stories",

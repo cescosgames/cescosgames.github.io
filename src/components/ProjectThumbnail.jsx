@@ -35,8 +35,8 @@ const ProjectThumbnail = ({ imageSrc, altText, projectTitle, projectDescrip, tag
 
   return (
     <>
-    <div 
-      className='relative justify-between border-1 bg-almost-white dark:bg-none cursor-pointer dark:bg-almost-black border-black/20 dark:border-white/50 rounded-xl w-full md:max-h-60 md:h-60 flex flex-col overflow-scroll no-scrollbar md:opacity-75 hover:opacity-100 transition-all'
+    <div
+      className='relative justify-between border-1 bg-white dark:bg-none cursor-pointer dark:bg-almost-black border-black/30 dark:border-white/50 rounded-xl w-full md:max-h-60 md:h-60 flex flex-col overflow-hidden md:opacity-90 hover:opacity-100 transition-all shadow-sm hover:shadow-md'
       onClick={ () => toggleModal()}
       onKeyDown={ (event) => handleKeyDown(event)}
       role='button'
@@ -45,7 +45,7 @@ const ProjectThumbnail = ({ imageSrc, altText, projectTitle, projectDescrip, tag
 
       <div className="relative w-full h-20">
         <img src={imageSrc} alt={altText} className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-almost-white dark:to-almost-black opacity-100"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white dark:to-almost-black opacity-100"></div>
       </div>
 
       {/* the header */}

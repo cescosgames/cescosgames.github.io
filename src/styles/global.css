@@ -4,7 +4,8 @@
 
 @theme {
     --color-almost-black: #111111;
-    --color-almost-white: #dddddd;
+    --color-almost-white: #f5f5f5;
+    --color-light-accent: #e8e8e8;
 }
 
 * {
@@ -18,8 +19,8 @@ body {
 
 /* default light mode */
 html {
-    background-color: #dddddd;
-    color: #111111;
+    background-color: #f5f5f5;
+    color: #1a1a1a;
 }
 /* default dark mode */
 html.dark {
