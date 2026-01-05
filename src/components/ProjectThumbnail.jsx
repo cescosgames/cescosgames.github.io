@@ -23,6 +23,15 @@ const ProjectThumbnail = ({ imageSrc, altText, projectTitle, projectDescrip, tag
     Godot: 'godot-gradient',
     Aseprite: 'aseprite-gradient',
     AI: 'ai-gradient',
+    Firebase: 'firebase-gradient',
+    TypeScript: 'typescript-gradient',
+    ExpressJS: 'expressjs-gradient',
+    WebDev: 'webdev-gradient',
+    GameDev: 'gamedev-gradient',
+    LLM: 'ai-gradient',
+    OpenAI: 'ai-gradient',
+    'C#': 'csharp-gradient',
+    GDScript: 'gdscript-gradient',
   }; // see our css for the gradients and see our map func to see they keys being used
 
   // keydown function for keyboard accessibility on tabs

@@ -1,7 +1,7 @@
 # FG Portfolio site test v1
 
 Initial Deployment: 4/29/25
-Last Update: 10/24/25
+Last Update: 1/5/26
 
 Features:
 - Astro project with React islands
@@ -12,8 +12,7 @@ Features:
 ToDo:
 - Add LinkedIn
 - Add Resume DL
-- Improve Project Paragraphs
 
 Last Update:
-- Updated layouts
-- Rewrote content
+- Improved Project Paragraphs
+- Added Missing Color Tags

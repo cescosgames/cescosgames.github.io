@@ -89,6 +89,27 @@ html.dark {
 .cf-gradient {
     background: linear-gradient(135deg, #ff6633, #fa9426);
 }
+.firebase-gradient {
+    background: linear-gradient(135deg, #ffca28, #ff6f00);
+}
+.typescript-gradient {
+    background: linear-gradient(135deg, #3178c6, #235a97);
+}
+.expressjs-gradient {
+    background: linear-gradient(135deg, #000000, #444444);
+}
+.webdev-gradient {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+}
+.gamedev-gradient {
+    background: linear-gradient(135deg, #ec4899, #8b5cf6);
+}
+.csharp-gradient {
+    background: linear-gradient(135deg, #68217a, #9b4f96);
+}
+.gdscript-gradient {
+    background: linear-gradient(135deg, #355570, #6e9ec8);
+}
 
 
 
