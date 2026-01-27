@@ -1,5 +1,5 @@
 ---
-
+import DLModal from './DLModal.astro';
 ---
 
 <div class="md:w-lg w-xs m-auto">
@@ -34,14 +34,15 @@
             <!-- social links -->
             <div class="flex items-center gap-2">
 
-                <!-- resume DL -->
+                <!-- put modal here -->
+
+                <!-- resume DL, opens modal -->
                 <div>
-                    <a href="/files/FG-SIMPLE-RESUME-012626.pdf" download aria-label="link to download my resume, dark mode">
+                    <button id="openDLButt" aria-label="button to open download modal for my resume, dark mode">
                         <img src="/images/resume-white.png" alt="Github Logo" class="hidden dark:block w-6 aspect-square hover:cursor-pointer hover:opacity-50 transition-all">
-                    </a>
-                    <a href="/files/FG-SIMPLE-RESUME-012626.pdf" download aria-label="link to download my resume, light mode">
                         <img src="/images/resume-black.png" alt="Github Logo" class="block dark:hidden w-6 aspect-square hover:cursor-pointer hover:opacity-50 transition">
-                    </a>
+                    </button>
+                    <DLModal />
                 </div>
 
                 <!-- mail, make this a click to copy email button -->
@@ -97,8 +98,10 @@
 </div>
 
 
-<!-- script for copying email address -->
+<!-- script for copying email address and assigning open modal-->
 <script>
+    const openModalButt = document.getElementById('openDLButt')
+    const DLmodal = document.getElementById('DLmodal')
     const popup = document.getElementById('popup');
     const click = document.getElementById('clickable')
 
@@ -157,5 +160,13 @@
 
     // Rotate every 3 seconds
     setInterval(rotateText, 3000);
+
+    // open modal and 'fade in' using tailwind
+    openModalButt?.addEventListener('click', () => {
+        DLmodal?.classList.remove('hidden');
+        setTimeout(() => {
+            DLmodal?.classList.remove('opacity-0')
+        }, 10);
+    });
 
 </script>

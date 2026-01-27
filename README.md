@@ -16,3 +16,4 @@ ToDo:
 Last Update:
 - Added LinkedIn
 - Added Resume DL
+- Added confirm Resume DL modal
