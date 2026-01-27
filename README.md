@@ -17,3 +17,4 @@ Last Update:
 - Added LinkedIn
 - Added Resume DL
 - Added confirm Resume DL modal
+- Added New WebDev Project

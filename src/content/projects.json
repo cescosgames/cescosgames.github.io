@@ -36,6 +36,24 @@
       }
     },
     {
+      "id": 10,
+      "title": "Influencer Website",
+      "content": {
+        "projTitle": "Influencer Website",
+        "description": "Infleuncer website built with Astro framework for youtuber NinaLuciaW",
+        "intro": "Developed to demonstrate developing based on client requirements through thoughtful design and implementation.",
+        "body": "Implemented RSS feed fetching, responsive design, and modern UI patterns using Astro and Tailwind CSS.",
+        "conclusion": "Project demonstrates proficiency with modern frontend frameworks and client-focused development.",
+        "link": "https://ninaluciaw.com/",
+        "githubLink": "",
+        "tags": ["Astro", "Frontend", "Tailwind"],
+        "imagePath": "/images/webdev/influencer.webp",
+        "imageAltText": "Screenshot of youtuber NinaLuciaW's landing page",
+        "gifPath": "",
+        "gifAltText": ""
+      }
+    },
+    {
       "id": 2,
       "title": "Newitt Reddit Client",
       "content": {
