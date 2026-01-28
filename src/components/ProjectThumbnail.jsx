@@ -11,27 +11,38 @@ const ProjectThumbnail = ({ imageSrc, altText, projectTitle, projectDescrip, tag
   }
 
   // our color coded tag OBJECT. each key is one of our tags
+// our color coded tag OBJECT. each key is one of our tags
   const tagColors = {
-    React: 'react-gradient',
-    Tailwind: 'tailwind-gradient',
-    Frontend: 'frontend-gradient',
-    Backend: 'backend-gradient',
-    Astro: 'astro-gradient',
-    CSS: 'css-gradient',
-    API: 'api-gradient',
-    Unity: 'unity-gradient',
-    Godot: 'godot-gradient',
-    Aseprite: 'aseprite-gradient',
-    AI: 'ai-gradient',
-    Firebase: 'firebase-gradient',
-    TypeScript: 'typescript-gradient',
-    ExpressJS: 'expressjs-gradient',
-    WebDev: 'webdev-gradient',
-    GameDev: 'gamedev-gradient',
-    LLM: 'ai-gradient',
-    OpenAI: 'ai-gradient',
+    // Area of Study Tags
+    'Frontend': 'frontend-gradient',
+    'Backend': 'backend-gradient',
+    'Full-Stack': 'full-stack-gradient',
+    'UX': 'ux-gradient',
+    'UI': 'ui-gradient',
+    'Design': 'design-gradient',
+    'API Integration': 'api-integration-gradient',
+    'Auth': 'auth-gradient',
+    'Performance': 'performance-gradient',
+    'WebDev': 'webdev-gradient',
+    'GameDev': 'gamedev-gradient',
+    
+    // old version (kept in case I wanna revert)
+    'React': 'react-gradient',
+    'Tailwind': 'tailwind-gradient',
+    'Astro': 'astro-gradient',
+    'CSS': 'css-gradient',
+    'API': 'api-gradient',
+    'Unity': 'unity-gradient',
+    'Godot': 'godot-gradient',
+    'Aseprite': 'aseprite-gradient',
+    'AI': 'ai-gradient',
+    'Firebase': 'firebase-gradient',
+    'TypeScript': 'typescript-gradient',
+    'ExpressJS': 'expressjs-gradient',
+    'LLM': 'ai-gradient',
+    'OpenAI': 'ai-gradient',
     'C#': 'csharp-gradient',
-    GDScript: 'gdscript-gradient',
+    'GDScript': 'gdscript-gradient',
   }; // see our css for the gradients and see our map func to see they keys being used
 
   // keydown function for keyboard accessibility on tabs

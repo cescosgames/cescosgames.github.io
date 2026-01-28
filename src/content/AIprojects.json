@@ -10,7 +10,7 @@
         "conclusion": "See the GitHub repository for API integration patterns and implementation details.",
         "link": "https://translator-deployable.pages.dev/",
         "githubLink": "https://github.com/cescosgames/scrimba-ai-translator-solo-project",
-        "tags": ["LLM", "OpenAI", "API"],
+        "tags": ["LLM", "OpenAI", "API Integration"],
         "imagePath": "/images/AI/pollyglot.webp",
         "imageAltText": "Screenshot of ai powered translator app",
         "gifPath": "",

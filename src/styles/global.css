@@ -44,71 +44,126 @@ html.dark {
 
 
 /* the tag gradients */
-.react-gradient {
-    background: linear-gradient(135deg, #58c4dc, #23272f);
-}
-.tailwind-gradient {
-    background: linear-gradient(135deg, #00bcff, #030712);
-}
+/* Area of Study Tag Gradients */
+/* core areas */
 .frontend-gradient {
-    background: linear-gradient(135deg, #e44d26, #f08c62);
+  background: linear-gradient(135deg, #e44d26, #f08c62);
 }
+
 .backend-gradient {
-    background: linear-gradient(135deg, #80bd00, #333333);
+  background: linear-gradient(135deg, #80bd00, #333333);
 }
-.astro-gradient {
-    background: linear-gradient(135deg, #2420ae, #791bbb);
+
+.full-stack-gradient {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
 }
-.css-gradient {
-    background: linear-gradient(135deg, #1572b6, #3babdc);
+
+/* frontend Areas */
+.ux-gradient {
+  background: linear-gradient(135deg, #db387e, #77d0b2);
 }
-.unity-gradient {
-    background: linear-gradient(135deg, #808080, #000000);
+
+.ui-gradient {
+  background: linear-gradient(135deg, #ff6b9d, #c44569);
 }
-.api-gradient {
-    background: linear-gradient(135deg, #69e3ff, #4576a3);
+
+.design-gradient {
+  background: linear-gradient(135deg, #d67ab9, #f9ef33);
 }
-.godot-gradient {
-    background: linear-gradient(135deg, #478cbf, #cbd6ea);
+
+/* tech spec */
+.api-integration-gradient {
+  background: linear-gradient(135deg, #69e3ff, #4576a3);
 }
-.aseprite-gradient {
-    background: linear-gradient(135deg, #d67ab9, #f9ef33);
+
+.auth-gradient {
+  background: linear-gradient(135deg, #ffc31b, #ff6f00);
 }
-.ai-gradient {
-    background: linear-gradient(135deg, #db387e, #77d0b2);
+
+.performance-gradient {
+  background: linear-gradient(135deg, #00bcff, #030712);
 }
-.git-gradient {
-    background: linear-gradient(135deg, #f05033, #3d2d00);
-}
-.vite-gradient {
-    background: linear-gradient(135deg, #ffc31b, #b149fe);
-}
-.js-gradient {
-    background: linear-gradient(135deg, #f7df1e, #4f490a);
-}
-.cf-gradient {
-    background: linear-gradient(135deg, #ff6633, #fa9426);
-}
-.firebase-gradient {
-    background: linear-gradient(135deg, #ffca28, #ff6f00);
-}
-.typescript-gradient {
-    background: linear-gradient(135deg, #3178c6, #235a97);
-}
-.expressjs-gradient {
-    background: linear-gradient(135deg, #000000, #444444);
-}
+
+/* general dev */
 .webdev-gradient {
-    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
 }
+
 .gamedev-gradient {
-    background: linear-gradient(135deg, #ec4899, #8b5cf6);
+  background: linear-gradient(135deg, #ec4899, #8b5cf6);
 }
+
+/* old tags/backup if I rever */
+.react-gradient {
+  background: linear-gradient(135deg, #58c4dc, #23272f);
+}
+
+.tailwind-gradient {
+  background: linear-gradient(135deg, #00bcff, #030712);
+}
+
+.astro-gradient {
+  background: linear-gradient(135deg, #2420ae, #791bbb);
+}
+
+.css-gradient {
+  background: linear-gradient(135deg, #1572b6, #3babdc);
+}
+
+.unity-gradient {
+  background: linear-gradient(135deg, #808080, #000000);
+}
+
+.api-gradient {
+  background: linear-gradient(135deg, #69e3ff, #4576a3);
+}
+
+.godot-gradient {
+  background: linear-gradient(135deg, #478cbf, #cbd6ea);
+}
+
+.aseprite-gradient {
+  background: linear-gradient(135deg, #d67ab9, #f9ef33);
+}
+
+.ai-gradient {
+  background: linear-gradient(135deg, #db387e, #77d0b2);
+}
+
+.git-gradient {
+  background: linear-gradient(135deg, #f05033, #3d2d00);
+}
+
+.vite-gradient {
+  background: linear-gradient(135deg, #ffc31b, #b149fe);
+}
+
+.js-gradient {
+  background: linear-gradient(135deg, #f7df1e, #4f490a);
+}
+
+.cf-gradient {
+  background: linear-gradient(135deg, #ff6633, #fa9426);
+}
+
+.firebase-gradient {
+  background: linear-gradient(135deg, #ffca28, #ff6f00);
+}
+
+.typescript-gradient {
+  background: linear-gradient(135deg, #3178c6, #235a97);
+}
+
+.expressjs-gradient {
+  background: linear-gradient(135deg, #000000, #444444);
+}
+
 .csharp-gradient {
-    background: linear-gradient(135deg, #68217a, #9b4f96);
+  background: linear-gradient(135deg, #68217a, #9b4f96);
 }
+
 .gdscript-gradient {
-    background: linear-gradient(135deg, #355570, #6e9ec8);
+  background: linear-gradient(135deg, #355570, #6e9ec8);
 }
 
 
