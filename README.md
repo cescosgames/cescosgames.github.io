@@ -14,3 +14,6 @@ ToDo:
 
 Last Update:
 - Fixed mobile flags "squashing"
+- Fixed mobile header sizing entirely
+- Resized entire body across all tabs
+- Added chevron indicating scrollable area in webdev and gamedev tab

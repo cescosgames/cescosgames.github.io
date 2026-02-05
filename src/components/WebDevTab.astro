@@ -1,24 +1,56 @@
 ---
 import ProjectThumbnail from "./ProjectThumbnail.jsx";
 
-import projectInfo from '../content/projects.json';
+import projectInfo from "../content/projects.json";
 ---
 
-
-<div class="grid md:grid-cols-2 grid-cols-1 md:gap-10 gap-5 md:max-h-100 max-h-110 overflow-scroll no-scrollbar mx-5">
-    <!-- map all our projects from our JSON file -->
-    {projectInfo.map((info) => {
-        return (
-            <ProjectThumbnail
-            client:load
-            imageSrc={info.content.imagePath}
-            altText={info.content.imageAltText}
-            projectTitle={info.title}
-            projectDescrip={info.content.description}
-            tags={info.content.tags}
-            content={info.content}
-            />
-        )
-    })}
-
+<div class="relative">
+    <div class="grid md:grid-cols-2 grid-cols-1 md:gap-10 gap-5 overflow-scroll no-scrollbar mx-5 max-h-130 md:max-h-140" id="projects-container">
+        <!-- map all our projects from our JSON file -->
+        {projectInfo.map((info) => {
+            return (
+                <ProjectThumbnail
+                    client:load
+                    imageSrc={info.content.imagePath}
+                    altText={info.content.imageAltText}
+                    projectTitle={info.title}
+                    projectDescrip={info.content.description}
+                    tags={info.content.tags}
+                    content={info.content}
+                />
+            );
+        })}
+    </div>
+    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 pointer-events-none transition-opacity duration-300" id="scroll-indicator">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 animate-bounce opacity-75"
+        >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
+        </svg>
+    </div>
 </div>
+
+<script>
+    const container = document.getElementById("projects-container");
+    const indicator = document.getElementById("scroll-indicator");
+
+    if (container && indicator) {
+        container.addEventListener("scroll", () => {
+            const isAtBottom =
+                container.scrollHeight - container.scrollTop <= container.clientHeight + 10;
+            if (isAtBottom) {
+                indicator.style.opacity = "0";
+            } else {
+                indicator.style.opacity = "1";
+            }
+        });
+    }
+</script>
