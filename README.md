@@ -1,7 +1,7 @@
 # FG Portfolio site test v1
 
 Initial Deployment: 4/29/25
-Last Update: 1/29/26
+Last Update: 2/5/26
 
 Features:
 - Astro project with React islands
@@ -10,11 +10,7 @@ Features:
 - Custom domain
 
 ToDo:
-- Update Language
+- Improve Language / What I Wrote About Myself
 
 Last Update:
-- Moved Tech stack to description, added area to tags instead (UI/UX instead of React on tags)
-- Updated Resume based on initial feedback
-
-Mini Update:
-- Forgot to center the resumé in the links bar lol
+- Fixed mobile flags "squashing"
