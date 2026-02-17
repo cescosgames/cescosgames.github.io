@@ -18,24 +18,6 @@
       }
     },
     {
-      "id": 1,
-      "title": "24h, Client-Side Stories",
-      "content": {
-        "projTitle": "24h: Client-Side Stories",
-        "description": "Client-side image story application with automated 24-hour expiration using browser localStorage",
-        "intro": "Developed to demonstrate local-first web development patterns and time-based content management without backend infrastructure.",
-        "body": "Implemented client-side image upload, storage, and automated expiration logic using React and Tailwind CSS.",
-        "conclusion": "View the GitHub repository for implementation details and technical approach. Stack: React, Tailwind",
-        "link": "https://24h-story-clone.pages.dev/",
-        "githubLink": "https://github.com/cescosgames/story-clone",
-        "tags": ["Frontend", "UX", "UI"],
-        "imagePath": "/images/webdev/24h.webp",
-        "imageAltText": "Screenshot of 24h web app",
-        "gifPath": "",
-        "gifAltText": ""
-      }
-    },
-    {
       "id": 10,
       "title": "Influencer Website",
       "content": {
@@ -67,6 +49,42 @@
         "tags": ["Frontend", "API Integration"],
         "imagePath": "/images/webdev/newitt.webp",
         "imageAltText": "Screenshot of Newitt client web app",
+        "gifPath": "",
+        "gifAltText": ""
+      }
+    },
+    {
+      "id": 6,
+      "title": "QuickRepPA",
+      "content": {
+        "projTitle": "QuickRepPA",
+        "description": "Mobile-optimized Pennsylvania representative lookup tool designed to reduce friction in civic engagement",
+        "intro": "Built to improve user experience for accessing elected official contact information rapidly on mobile devices.",
+        "body": "Developed mobile-first UI rapid representative lookup functionality. Works for any state given correct data.",
+        "conclusion": "Updated live with manual representative data. See the GitHub repository for implementation framework and architecture. Stack: React",
+        "link": "https://quickrep-pa.pages.dev/",
+        "githubLink": "https://github.com/cescosgames/quickrepPA",
+        "tags": ["Frontend"],
+        "imagePath": "/images/webdev/quickrep.webp",
+        "imageAltText": "Screenshot of quickrepPA web app",
+        "gifPath": "",
+        "gifAltText": ""
+      }
+    },
+    {
+      "id": 1,
+      "title": "24h, Client-Side Stories",
+      "content": {
+        "projTitle": "24h: Client-Side Stories",
+        "description": "Client-side image story application with automated 24-hour expiration using browser localStorage",
+        "intro": "Developed to demonstrate local-first web development patterns and time-based content management without backend infrastructure.",
+        "body": "Implemented client-side image upload, storage, and automated expiration logic using React and Tailwind CSS.",
+        "conclusion": "View the GitHub repository for implementation details and technical approach. Stack: React, Tailwind",
+        "link": "https://24h-story-clone.pages.dev/",
+        "githubLink": "https://github.com/cescosgames/story-clone",
+        "tags": ["Frontend", "UX", "UI"],
+        "imagePath": "/images/webdev/24h.webp",
+        "imageAltText": "Screenshot of 24h web app",
         "gifPath": "",
         "gifAltText": ""
       }
@@ -121,24 +139,6 @@
         "tags": ["Frontend", "API Integration"],
         "imagePath": "/images/webdev/bubweather.webp",
         "imageAltText": "Screenshot of bubweather web app",
-        "gifPath": "",
-        "gifAltText": ""
-      }
-    },
-    {
-      "id": 6,
-      "title": "QuickRepPA",
-      "content": {
-        "projTitle": "QuickRepPA",
-        "description": "Mobile-optimized Pennsylvania representative lookup tool designed to reduce friction in civic engagement",
-        "intro": "Built to improve user experience for accessing elected official contact information on mobile devices.",
-        "body": "Developed mobile-first UI and API integration framework for rapid representative lookup functionality.",
-        "conclusion": "Currently non-functional due to API availability. See the GitHub repository for implementation framework and architecture. Stack: React, Civic Information API",
-        "link": "",
-        "githubLink": "https://github.com/cescosgames/quickrepPA",
-        "tags": ["API Integration"],
-        "imagePath": "/images/webdev/quickrep.webp",
-        "imageAltText": "Screenshot of quickrepPA web app",
         "gifPath": "",
         "gifAltText": ""
       }
