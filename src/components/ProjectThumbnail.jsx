@@ -43,6 +43,9 @@ const ProjectThumbnail = ({ imageSrc, altText, projectTitle, projectDescrip, tag
     'OpenAI': 'ai-gradient',
     'C#': 'csharp-gradient',
     'GDScript': 'gdscript-gradient',
+    'macOS': 'macos-gradient',
+    'Developer Tool': 'dev-tool-gradient',
+    'Claude Code': 'claude-gradient',
   }; // see our css for the gradients and see our map func to see they keys being used
 
   // keydown function for keyboard accessibility on tabs

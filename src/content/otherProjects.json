@@ -1,0 +1,38 @@
+[
+  {
+      "id": 2,
+      "title": "Burn Gauge",
+      "content": {
+        "projTitle": "Burn Gauge",
+        "description": "A compact always-on-top macOS companion for estimating Claude Code token burn rate in intervals",
+        "intro": "Built to track token burn rate in real time so I could gauge when I'd hit my Claude Pro limit during active coding sessions.",
+        "body": "A native macOS menubar app that sits always on top and displays live token burn rate and usage stats for active Claude Code sessions without API keys or network requests.",
+        "conclusion": "Check the GitHub repository for installation instructions and source code.",
+        "link": "https://github.com/cescosgames/burn-gauge/releases/tag/v1.0.0",
+        "githubLink": "https://github.com/cescosgames/burn-gauge",
+        "tags": ["macOS", "Developer Tool", "Claude Code"],
+        "imagePath": "/images/other/burngauge.webp",
+        "imageAltText": "Screenshot of Burn Gauge macOS app showing Claude Code token usage",
+        "gifPath": "",
+        "gifAltText": ""
+      }
+    },
+    {
+      "id": 1,
+      "title": "Simple AI Translator",
+      "content": {
+        "projTitle": "Simple AI Translator",
+        "description": "AI-powered translation web application built with OpenAI API integration",
+        "intro": "Developed to demonstrate LLM API integration and asynchronous request handling in a practical application.",
+        "body": "Implemented OpenAI API calls, error handling, and responsive UI using vanilla JavaScript, HTML, and CSS.",
+        "conclusion": "See the GitHub repository for API integration patterns and implementation details.",
+        "link": "https://translator-deployable.pages.dev/",
+        "githubLink": "https://github.com/cescosgames/scrimba-ai-translator-solo-project",
+        "tags": ["LLM", "OpenAI", "API Integration"],
+        "imagePath": "/images/other/pollyglot.webp",
+        "imageAltText": "Screenshot of ai powered translator app",
+        "gifPath": "",
+        "gifAltText": ""
+      }
+    }
+  ]

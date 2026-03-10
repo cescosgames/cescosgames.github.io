@@ -1,7 +1,7 @@
 # FG Portfolio site test v1
 
 Initial Deployment: 4/29/25
-Last Update: 2/17/26
+Last Update: 3/10/26
 
 Features:
 - Astro project with React islands
@@ -14,8 +14,6 @@ ToDo:
 - Look into mailjs for contact form
 
 Last Update:
-- Fixed mobile flags "squashing"
-- Fixed mobile header sizing entirely
-- Resized entire body across all tabs
-- Added chevron indicating scrollable area in webdev and gamedev tab
-- Updated quickrep project
+- Changed AI tab to other tab with its own project JSON and Astro component
+- Added Burn Gauge as first Other project
+- Added tag gradients for macOS, Developer Tool, and Claude Code tags

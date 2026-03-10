@@ -166,6 +166,18 @@ html.dark {
   background: linear-gradient(135deg, #355570, #6e9ec8);
 }
 
+.macos-gradient {
+  background: linear-gradient(135deg, #555555, #aaaaaa);
+}
+
+.dev-tool-gradient {
+  background: linear-gradient(135deg, #1a73e8, #0d47a1);
+}
+
+.claude-gradient {
+  background: linear-gradient(135deg, #d4845a, #c96442);
+}
+
 
 
 /* some animations */
