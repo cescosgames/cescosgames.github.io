@@ -72,24 +72,6 @@
       }
     },
     {
-      "id": 1,
-      "title": "24h, Client-Side Stories",
-      "content": {
-        "projTitle": "24h: Client-Side Stories",
-        "description": "Client-side image story application with automated 24-hour expiration using browser localStorage",
-        "intro": "Developed to demonstrate local-first web development patterns and time-based content management without backend infrastructure.",
-        "body": "Implemented client-side image upload, storage, and automated expiration logic using React and Tailwind CSS.",
-        "conclusion": "View the GitHub repository for implementation details and technical approach. Stack: React, Tailwind",
-        "link": "https://24h-story-clone.pages.dev/",
-        "githubLink": "https://github.com/cescosgames/story-clone",
-        "tags": ["Frontend", "UX", "UI"],
-        "imagePath": "/images/webdev/24h.webp",
-        "imageAltText": "Screenshot of 24h web app",
-        "gifPath": "",
-        "gifAltText": ""
-      }
-    },
-    {
       "id": 3,
       "title": "Professional Artist Landing Page",
       "content": {
@@ -103,42 +85,6 @@
         "tags": ["Frontend", "UI", "Performance"],
         "imagePath": "/images/webdev/artist.webp",
         "imageAltText": "Screenshot of musician pronouncedyea's landing page",
-        "gifPath": "",
-        "gifAltText": ""
-      }
-    },
-    {
-      "id": 4,
-      "title": "JSON Quiz",
-      "content": {
-        "projTitle": "JSON Quiz",
-        "description": "Configurable browser-based quiz application with timer, scoring system, and dynamic content loading from JSON",
-        "intro": "Built as a reusable template demonstrating data-driven UI rendering and state management patterns.",
-        "body": "Implemented JSON-based content system, timer logic, score tracking, and modular component architecture using React.",
-        "conclusion": "See the GitHub repository for the JSON schema specification and implementation details. Stack: React, Tailwind",
-        "link": "https://jsonquiz.pages.dev/",
-        "githubLink": "https://github.com/cescosgames/jsonquiz",
-        "tags": ["Frontend", "UX"],
-        "imagePath": "/images/webdev/jsonQuiz.webp",
-        "imageAltText": "Screenshot of JSON quiz web app",
-        "gifPath": "",
-        "gifAltText": ""
-      }
-    },
-    {
-      "id": 5,
-      "title": "BubWeather: Simple Weather",
-      "content": {
-        "projTitle": "BubWeather",
-        "description": "Mobile-first weather application using Visual Crossing API with location-based forecasting",
-        "intro": "Developed to demonstrate API integration, asynchronous data handling, and mobile-responsive design principles.",
-        "body": "Implemented geolocation services, API error handling, and responsive UI optimized for mobile devices.",
-        "conclusion": "See the GitHub repository for API integration approach and responsive design implementation. Stack: React, Visual Crossing API",
-        "link": "https://bubweather.pages.dev/",
-        "githubLink": "https://github.com/cescosgames/bubweather",
-        "tags": ["Frontend", "API Integration"],
-        "imagePath": "/images/webdev/bubweather.webp",
-        "imageAltText": "Screenshot of bubweather web app",
         "gifPath": "",
         "gifAltText": ""
       }

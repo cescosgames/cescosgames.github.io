@@ -19,9 +19,7 @@
     </div>
 
     <div class="w-full flex flex-col text-xs border-1 rounded-md p-3 gap-2">
-        <!-- <p class="font-semibold">Why I Code</p> -->
-        <p>Transitioning from music to programming taught me the most valuable skill: rapid learning and adaptation. Whether I'm implementing Firebase authentication for the first time or integrating unfamiliar APIs, I thrive on figuring things out.</p>
-        <p>I've built 8+ live web applications, each one teaching me something new about various technologies, architectures, and experiences.</p>
+        <p>I've built web apps, desktop apps, and games — for clients, for fun, and a few just because I had an idea I wanted to try. I pick things up fast, I care about the details, and I actually finish things.</p>
     </div>
 
 
@@ -30,10 +28,16 @@
 
     <!-- the tech scroll -->
     <div class="relative w-full">
-        <div class="flex overflow-x-auto gap-4 relative no-scrollbar text-almost-white opacity-100 text-xs text-nowrap">
+        <div id="tech-scroll" class="flex overflow-x-auto gap-4 relative no-scrollbar text-almost-white opacity-100 text-xs text-nowrap">
             <!-- copy techs below -->
             <div class="px-4 py-2 text-center react-gradient rounded-lg shadow-sm transition-all cursor-default">
                 React
+            </div>
+            <div class="px-4 py-2 text-center js-gradient rounded-lg shadow-sm transition-all cursor-default">
+                TypeScript
+            </div>
+            <div class="px-4 py-2 text-center js-gradient rounded-lg shadow-sm transition-all cursor-default">
+                JavaScript
             </div>
             <div class="px-4 py-2 text-center astro-gradient rounded-lg shadow-sm transition-all cursor-default">
                 Astro
@@ -41,29 +45,17 @@
             <div class="px-4 py-2 text-center tailwind-gradient rounded-lg shadow-sm transition-all cursor-default">
                 Tailwind
             </div>
-            <div class="px-4 py-2 text-center git-gradient rounded-lg shadow-sm transition-all cursor-default">
-                Git
+            <div class="px-4 py-2 text-center firebase-gradient rounded-lg shadow-sm transition-all cursor-default">
+                Firebase
             </div>
-            <div class="px-4 py-2 text-center vite-gradient rounded-lg shadow-sm transition-all cursor-default">
-                Vite
+            <div class="px-4 py-2 text-center expressjs-gradient rounded-lg shadow-sm transition-all cursor-default">
+                Express
             </div>
             <div class="px-4 py-2 text-center unity-gradient rounded-lg shadow-sm transition-all cursor-default">
                 Unity/C#
             </div>
             <div class="px-4 py-2 text-center godot-gradient rounded-lg shadow-sm transition-all cursor-default">
                 GDScript
-            </div>
-            <div class="px-4 py-2 text-center js-gradient rounded-lg shadow-sm transition-all cursor-default">
-                JavaScript
-            </div>
-            <div class="px-4 py-2 text-center js-gradient rounded-lg shadow-sm transition-all cursor-default">
-                TypeScript
-            </div>
-            <div class="px-4 py-2 text-center css-gradient rounded-lg shadow-sm transition-all cursor-default">
-                CSS
-            </div>
-            <div class="px-4 py-2 text-center cf-gradient rounded-lg shadow-sm transition-all cursor-default">
-                CloudFlare Pages
             </div>
         </div>
         <!-- fades -->
@@ -78,3 +70,24 @@
     </div>
 
 </div>
+
+<script>
+  const el = document.getElementById('tech-scroll') as HTMLElement;
+  let scrollInterval: ReturnType<typeof setInterval> | undefined;
+
+  if (el) {
+    el.addEventListener('mouseenter', () => {
+      scrollInterval = setInterval(() => {
+        if (el.scrollLeft + el.clientWidth >= el.scrollWidth) {
+          clearInterval(scrollInterval);
+        } else {
+          el.scrollLeft += 1;
+        }
+      }, 16);
+    });
+
+    el.addEventListener('mouseleave', () => {
+      clearInterval(scrollInterval);
+    });
+  }
+</script>
