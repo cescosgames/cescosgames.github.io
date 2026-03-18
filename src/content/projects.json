@@ -1,5 +1,23 @@
 [
   {
+    "id": 11,
+    "title": "Stockpile",
+    "content": {
+      "projTitle": "Stockpile: Farm Management App",
+      "description": "Open source, offline-first farm management app for tracking livestock health, feed inventory, and daily feeding checklists",
+      "intro": "Built from a real life challenge I faced working on a small family farm, this was created to give small family farms a practical, self-hosted tool that works without internet. Installable as a PWA or synced across devices via a local Raspberry Pi.",
+      "body": "Implemented animal health records, feed inventory with customizable units, AM/PM feeding checklists that automatically adjust stock levels, and a farm contact directory. Supports three deployment modes: browser PWA, Electron desktop app, and a networked setup using PocketBase on local hardware for real-time multi-device sync via server-sent events, no cloud required.",
+      "conclusion": "Fully open source under MIT license. See the GitHub repo for self-hosting instructions and contribution guidelines. Stack: React, TypeScript, PocketBase, Electron, Tailwind",
+      "link": "https://stockpile-landing.pages.dev/",
+      "githubLink": "https://github.com/cescosgames/stockpile",
+      "tags": ["Full-Stack", "Self-Hosted"],
+      "imagePath": "/images/webdev/stockpile.webp",
+      "imageAltText": "Screenshot of Stockpile farm management app dashboard",
+      "gifPath": "",
+      "gifAltText": ""
+    }
+  },
+  {
       "id": 9,
       "title": "SocialStreak Web App",
       "content": {
@@ -64,7 +82,7 @@
         "conclusion": "Updated live with manual representative data. See the GitHub repository for implementation framework and architecture. Stack: React",
         "link": "https://quickrep-pa.pages.dev/",
         "githubLink": "https://github.com/cescosgames/quickrepPA",
-        "tags": ["Frontend"],
+        "tags": ["Frontend", "Civic Tech"],
         "imagePath": "/images/webdev/quickrep.webp",
         "imageAltText": "Screenshot of quickrepPA web app",
         "gifPath": "",

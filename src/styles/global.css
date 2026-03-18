@@ -178,6 +178,14 @@ html.dark {
   background: linear-gradient(135deg, #d4845a, #c96442);
 }
 
+.self-hosted-gradient {
+  background: linear-gradient(135deg, #2d7a4f, #1a4d35);
+}
+
+.civic-tech-gradient {
+  background: linear-gradient(135deg, #B22234, #3C3B6E);
+}
+
 
 
 /* some animations */

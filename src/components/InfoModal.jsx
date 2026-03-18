@@ -24,7 +24,7 @@ const InfoModal = ({ isOpen, toggle, bodyContent }) => {
           className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
           onClick={handleBGClick}
           >
-          <div className="bg-almost-white dark:bg-almost-black border-2 border-almost-black dark:border-almost-white p-6 rounded-lg shadow-lg md:w-xl w-sm min-w-xs max-h-100 overflow-scroll no-scrollbar">
+          <div className="bg-almost-white dark:bg-almost-black border-2 border-almost-black dark:border-almost-white p-6 rounded-lg shadow-lg md:w-xl w-sm min-w-xs max-h-150 overflow-scroll no-scrollbar">
               {/* break down and display the json here */}
 
               <div className="relative w-full h-30 mb-5">
