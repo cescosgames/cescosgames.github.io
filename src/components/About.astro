@@ -29,35 +29,29 @@
 
     <!-- the tech scroll -->
     <div class="relative w-full">
-        <div id="tech-scroll" class="flex overflow-x-auto gap-4 relative no-scrollbar text-almost-white opacity-100 text-xs text-nowrap">
-            <!-- copy techs below -->
-            <div class="px-4 py-2 text-center react-gradient rounded-lg shadow-sm transition-all cursor-default">
-                React
-            </div>
-            <div class="px-4 py-2 text-center js-gradient rounded-lg shadow-sm transition-all cursor-default">
-                TypeScript
-            </div>
-            <div class="px-4 py-2 text-center js-gradient rounded-lg shadow-sm transition-all cursor-default">
-                JavaScript
-            </div>
-            <div class="px-4 py-2 text-center astro-gradient rounded-lg shadow-sm transition-all cursor-default">
-                Astro
-            </div>
-            <div class="px-4 py-2 text-center tailwind-gradient rounded-lg shadow-sm transition-all cursor-default">
-                Tailwind
-            </div>
-            <div class="px-4 py-2 text-center firebase-gradient rounded-lg shadow-sm transition-all cursor-default">
-                Firebase
-            </div>
-            <div class="px-4 py-2 text-center expressjs-gradient rounded-lg shadow-sm transition-all cursor-default">
-                Express
-            </div>
-            <div class="px-4 py-2 text-center unity-gradient rounded-lg shadow-sm transition-all cursor-default">
-                Unity/C#
-            </div>
-            <div class="px-4 py-2 text-center godot-gradient rounded-lg shadow-sm transition-all cursor-default">
-                GDScript
-            </div>
+        <div id="tech-scroll" class="flex overflow-x-auto gap-3 no-scrollbar text-xs">
+            <!-- set 1 -->
+            <div class="tech-pill pill-react    px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">React</div>
+            <div class="tech-pill pill-ts       px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">TypeScript</div>
+            <div class="tech-pill pill-js       px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">JavaScript</div>
+            <div class="tech-pill pill-astro    px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">Astro</div>
+            <div class="tech-pill pill-tailwind px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">Tailwind</div>
+            <div class="tech-pill pill-firebase px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">Firebase</div>
+            <div class="tech-pill pill-express  px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">Express</div>
+            <div class="tech-pill pill-unity    px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">Unity / C#</div>
+            <div class="tech-pill pill-godot    px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">GDScript</div>
+            <div class="tech-pill pill-git      px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">Git</div>
+            <!-- set 2 (duplicate for seamless loop) -->
+            <div class="tech-pill pill-react    px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">React</div>
+            <div class="tech-pill pill-ts       px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">TypeScript</div>
+            <div class="tech-pill pill-js       px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">JavaScript</div>
+            <div class="tech-pill pill-astro    px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">Astro</div>
+            <div class="tech-pill pill-tailwind px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">Tailwind</div>
+            <div class="tech-pill pill-firebase px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">Firebase</div>
+            <div class="tech-pill pill-express  px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">Express</div>
+            <div class="tech-pill pill-unity    px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">Unity / C#</div>
+            <div class="tech-pill pill-godot    px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">GDScript</div>
+            <div class="tech-pill pill-git      px-4 py-1.5 rounded-full cursor-default whitespace-nowrap">Git</div>
         </div>
         <!-- fades -->
         <div class="pointer-events-none absolute top-0 bottom-0 left-0 w-8 bg-gradient-to-r from-almost-white dark:from-almost-black to-transparent"></div>
@@ -79,10 +73,10 @@
   if (el) {
     el.addEventListener('mouseenter', () => {
       scrollInterval = setInterval(() => {
-        if (el.scrollLeft + el.clientWidth >= el.scrollWidth) {
-          clearInterval(scrollInterval);
-        } else {
-          el.scrollLeft += 1;
+        el.scrollLeft += 1;
+        // when we reach the end of set 1, snap back to start — seamless loop
+        if (el.scrollLeft >= el.scrollWidth / 2) {
+          el.scrollLeft = 0;
         }
       }, 16);
     });

@@ -188,6 +188,38 @@ html.dark {
 
 
 
+/* marquee infinite scroll */
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+    /* reserved — not active */
+}
+
+.animate-marquee:hover {
+    animation-play-state: paused;
+}
+
+/* tech stack marquee pills — gradient border, dull fill, clear text */
+.tech-pill {
+    color: #f5f5f5;
+    border: 1.5px solid transparent;
+    background-clip: padding-box;
+}
+
+.pill-react      { background-color: rgba(88, 196, 220, 0.08);  border-color: #58c4dc; }
+.pill-ts         { background-color: rgba(49, 120, 198, 0.10);  border-color: #3178c6; }
+.pill-js         { background-color: rgba(247, 223, 30, 0.08);  border-color: #c9b400; }
+.pill-astro      { background-color: rgba(121, 27, 187, 0.12);  border-color: #791bbb; }
+.pill-tailwind   { background-color: rgba(0, 188, 255, 0.08);   border-color: #00bcff; }
+.pill-firebase   { background-color: rgba(255, 111, 0, 0.10);   border-color: #ff9500; }
+.pill-express    { background-color: rgba(180, 180, 180, 0.08); border-color: #aaaaaa; }
+.pill-unity      { background-color: rgba(160, 160, 160, 0.08); border-color: #888888; }
+.pill-godot      { background-color: rgba(71, 140, 191, 0.10);  border-color: #478cbf; }
+.pill-git        { background-color: rgba(240, 80, 51, 0.10);   border-color: #f05033; }
+
 /* some animations */
 /* animation for fading in the pop up for copying email address */
 @keyframes fadeInRight {
