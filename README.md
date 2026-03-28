@@ -1,7 +1,7 @@
 # FG Portfolio site test v1
 
 Initial Deployment: 4/29/25
-Last Update: 3/24/26
+Last Update: 3/27/26
 
 Features:
 - Astro project with React islands
@@ -17,3 +17,4 @@ ToDo:
 Last Update:
 - Reworked tech stack marquee: infinite hover-scroll, modern outlined pill style with per-tech border colors
 - Commented out Bio tab (redundant with About, placeholder for Articles tab)
+- Removed dark mode toggle (light mode looks like ass and I'm tired of it)

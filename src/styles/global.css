@@ -29,7 +29,7 @@ html.dark {
 }
 
 /* this is necessary for tailwind darkmode class activation  */
-@custom-variant dark (&:where(.dark, .dark *));
+/* @custom-variant dark (&:where(.dark, .dark *)); */
 
 
 /* utility classes */
