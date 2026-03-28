@@ -18,3 +18,7 @@ Last Update:
 - Reworked tech stack marquee: infinite hover-scroll, modern outlined pill style with per-tech border colors
 - Commented out Bio tab (redundant with About, placeholder for Articles tab)
 - Removed dark mode toggle (light mode looks like ass and I'm tired of it)
+
+### Why Astro?
+React got me hooked on building using components but React is way overkill for a portfolio no? Then I discovered Astro, I could still use React components
+for more interactive parts but ship the rest as static HTML - good ol' quick and lean HTML. Who doesn't love that? 
