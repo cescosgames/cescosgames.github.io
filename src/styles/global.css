@@ -219,6 +219,7 @@ html.dark {
 .pill-unity      { background-color: rgba(160, 160, 160, 0.08); border-color: #888888; }
 .pill-godot      { background-color: rgba(71, 140, 191, 0.10);  border-color: #478cbf; }
 .pill-git        { background-color: rgba(240, 80, 51, 0.10);   border-color: #f05033; }
+.pill-claude     { background-color: rgba(205, 107, 66, 0.10);  border-color: #cd6b42; }
 
 /* some animations */
 /* animation for fading in the pop up for copying email address */
