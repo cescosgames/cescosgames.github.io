@@ -34,5 +34,23 @@
         "gifPath": "",
         "gifAltText": ""
       }
+    },
+    {
+      "id": 2,
+      "title": "Vanilla HTML Study Guide",
+      "content": {
+        "projTitle": "Vanilla HTML Study Guide",
+        "description": "Interactive study guide designed as PWA for studying on the go",
+        "intro": "Made this as a tool for myself to study and quiz myself on my personal notes for the Google IT Certification",
+        "body": "Implemented OpenAI API calls, error handling, and responsive UI using vanilla JavaScript, HTML, and CSS.",
+        "conclusion": "Stayed lean with vanilla HTML/CSS/JS and implemented PWA caching for on the go studying. Currently working on a content driven version in Astro.",
+        "link": "https://google-it-cert-study-guide.pages.dev/",
+        "githubLink": "https://github.com/cescosgames/google-it-cert-study-guide",
+        "tags": ["IT", "Resource"],
+        "imagePath": "/images/other/html-study-guide.webp",
+        "imageAltText": "Screenshot of study guide",
+        "gifPath": "",
+        "gifAltText": ""
+      }
     }
   ]

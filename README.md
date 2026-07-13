@@ -1,7 +1,7 @@
 # FG Portfolio site test v1
 
 Initial Deployment: 4/29/25
-Last Update: 3/27/26
+Last Update: 7/13/26
 
 Features:
 - Astro project with React islands
@@ -15,10 +15,7 @@ ToDo:
 - Add Articles tab (replace Bio tab, pull posts from Blogger)
 
 Last Update:
-- Reworked tech stack marquee: infinite hover-scroll, modern outlined pill style with per-tech border colors
-- Commented out Bio tab (redundant with About, placeholder for Articles tab)
-- Removed dark mode toggle (light mode looks like ass and I'm tired of it)
-- Added claudecode into my tech stack (cause like agentic programming has to be the most in demand skill of the future right?)
+- Added study guide in 'Other'
 
 ### Why Astro?
 React got me hooked on building using components but React is way overkill for a portfolio no? Then I discovered Astro, I could still use React components
