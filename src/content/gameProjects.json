@@ -36,6 +36,24 @@
         }
     },
     {
+        "id": 6,
+        "title": "Four Down Dice",
+        "content": {
+          "projTitle": "Four Down Dice",
+          "description": "American Football boiled down to 4 D6s placed in 4 downs, made in Godot Engine.",
+          "intro": "Small project exploring depth and simplicity; born from the question of how much strategy can we add to 4 D6s?",
+          "body": "Implemented game logic, visual effects system, scoring mechanics, and custom pixel art assets using GDScript and Aseprite.",
+          "conclusion": "Play the game on itch.io. Contact me to discuss game design decisions and implementation approach. Stack: Godot, GDScript, Aseprite",
+          "link": "https://cesco-ideas.itch.io/four-down-dice",
+          "githubLink": "",
+          "tags": ["Design", "GameDev", "UI"],
+          "imagePath": "/images/gamedev/fourdowndice.webp",
+          "imageAltText": "Itch.io cover art for Four Down Dice",
+          "gifPath": "",
+          "gifAltText": ""
+        }
+    },
+    {
         "id": 3,
         "title": "Contesa: Fight For Foresta",
         "content": {
